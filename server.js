@@ -31,7 +31,7 @@ app.get('/', function(req, res){
 });
 server.listen(appPort);
 // app.listen(appPort);
-console.log("Server listening on port 16558");
+console.log("Server listening on port "+appPort);
 
 // Handle the socket.io connections
 
